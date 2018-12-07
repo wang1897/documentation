@@ -116,6 +116,7 @@
 	           {
 		       "ContractHash": "16edbe366d1337eb510c2ff61099424c94aeef02",
 		       "Name": "name",
+		       "TxCount": 30,
 		       "TotalSupply": 1000000000,
 		       "Symbol": "MYT",
 		       "Decimals": 8,
@@ -137,11 +138,13 @@
 	}
 
 
+
 | RequestField|     Type |   Description   | 
 | :--------------: | :--------:| :------: |
 | type|   String|    |
 | pagesize|   int|    |
 | pagenumber|   int|    |
+
 
 
 | ResponseField     |     Type |   Description   | 
@@ -158,6 +161,7 @@
 | Symbol|	String|	  |
 | TotalSupply|	int|	  |
 | Decimals|	int|	  |
+| Description|	String|	  |
 
 
 
