@@ -43,6 +43,7 @@
 
 | ResponseField     |     Type |   Description   | 
 | :--------------: | :--------:| :------: |
+| Total|   int|    |
 | ContractHash|   String|    |
 | Name|   String|  |
 | TxCount|   int|    |
@@ -67,6 +68,7 @@
 	   "Version": "1.0",
 	   "Result": {
 	      "Total": 1,
+	      "Creator": "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ",
 	      "TxnList": [
 	         {
 	         "TxnTime": 1543304445,
@@ -74,8 +76,7 @@
 		 "ConfirmFlag": 1,
 		 "Fee": "0.010000000",
 		 "TxnHash": "c265aef457cb3b9012f09d5ad5fb834468241744254133e8a95290e9a6df31cd",
-		 "Height": 3130,
-		 "BlockIndex": 1
+		 "Height": 3130
 		 }
 	      ]
 	   }
@@ -91,11 +92,12 @@
 
 | ResponseField     |     Type |   Description   | 
 | :--------------: | :--------:| :------: |
+| Total|   int|    |
+| Creator|   String|    |
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
 | Height|   int|    |
-| BlockIndex|   int|    |
 | ConfirmFlag	|	int|	  |
 | Fee|	String|	  |
 
@@ -116,6 +118,7 @@
 	           {
 		       "ContractHash": "16edbe366d1337eb510c2ff61099424c94aeef02",
 		       "Name": "name",
+		       "Creator": "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ",
 		       "TxCount": 30,
 		       "TotalSupply": 1000000000,
 		       "Symbol": "MYT",
@@ -141,7 +144,7 @@
 
 | RequestField|     Type |   Description   | 
 | :--------------: | :--------:| :------: |
-| type|   String|    |
+| type|   String|  oep4 or oep8  |
 | pagesize|   int|    |
 | pagenumber|   int|    |
 
@@ -149,9 +152,11 @@
 
 | ResponseField     |     Type |   Description   | 
 | :--------------: | :--------:| :------: |
+| Total|   int|    |
 | ContractHash|   String|    |
 | Name|   String|  |
 | TxCount|   int|    |
+| Creator|   String|    |
 | ABI|   String|    |
 | Code|   String|    |
 | CreateTime	|	int|	  |
@@ -178,6 +183,10 @@
 	   "Version": "1.0",
 	   "Result": {
 	       "Total": 7,
+	       "Creator": "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ",
+	       "CreateTime": "2018-11-27T02:07:59.000+0000",
+	       "TotalSupply": 1000000000,
+	       "Decimals": 8,
 	       "ContractList": [
 	           {
 		       "TxnTime": 1543304445,
@@ -195,7 +204,7 @@
 
 | RequestField|     Type |   Description   | 
 | :--------------: | :--------:| :------: |
-| type|   String|    |
+| type|   String|  oep4 or oep8  |
 | contracthash|   String|    |
 | pagesize|   int|    |
 | pagenumber|   int|    |
@@ -203,10 +212,14 @@
 
 | ResponseField     |     Type |   Description   | 
 | :--------------: | :--------:| :------: |
+| Total|   int|    |
+| Creator|   String|    |
+| CreateTime|   String|    |
+| TotalSupply|   int|    |
+| Decimals|   int|    |
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
 | Height|   int|    |
-| BlockIndex|   int|    |
 | ConfirmFlag	|	int|	  |
 | Fee|	String|	  |
