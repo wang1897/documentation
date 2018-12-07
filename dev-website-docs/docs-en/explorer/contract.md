@@ -22,6 +22,7 @@
 			"Code": "013ec56b6a00527ac46a51527ac46a00c3046e616d659c640900658e076c7566616a00c30568656c6c6f9c6424006a51c3c0519e640700006c7566616a51c300c36a52527ac46a52c36551076c7566616a00.......",
 			"CreateTime":1516946305,
 			"UpdateTime":1516948340,
+			"Description": "30",
 			"ContactInfo":{
 			    "email":"xx@onchain.com",
 			    "twitter":"",
@@ -57,6 +58,7 @@
 | UpdateTime|	int|	  |
 | ContactInfo|	String|	  |
 | Logo|	String|	  |
+| Description|	String|	  |
 
 ---
 #  Get Contract Detail
@@ -129,7 +131,7 @@
 		       "TotalSupply": 1000000000,
 		       "Symbol": "MYT",
 		       "Decimals": 8,
-		       "Description": 30,
+		       "Description": "30",
 		       "Logo": "",
 		       "ABI":"",
 		       "Code": "013ec56b6a00527ac46a51527ac46a00c3046e616d659c640900658e076c7566616a00c30568656c6c6f9c6424006a51c3c0519e640700006c7566616a51c300c36a52527ac46a52c36551076c7566616a00.......",
@@ -202,8 +204,7 @@
 		       "ConfirmFlag": 1,
 		       "Fee": "0.010000000",
 		       "TxnHash": "c265aef457cb3b9012f09d5ad5fb834468241744254133e8a95290e9a6df31cd",
-		       "Height": 3130,
-		       "BlockIndex": 1
+		       "Height": 3130
 		    }
 		]
 	   }
