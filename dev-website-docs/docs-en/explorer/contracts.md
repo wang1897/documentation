@@ -108,8 +108,8 @@
 | :--------------: | :--------:| :------: |
 | Total|   int|    |
 | Creator|   String|    |
-| OntCount|   String|    |
-| OngCount|   String|    |
+| OntCount|   int|    |
+| OngCount|   Bigdecimal|    |
 | ABI|   String|    |
 | Code|   String|    |
 | Name|   String|    |
