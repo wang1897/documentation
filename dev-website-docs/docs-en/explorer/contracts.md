@@ -20,14 +20,15 @@
 			"Code": "013ec56b6a00527ac46a51527ac46a00c3046e616d659c640900658e076c7566616a00c30568656c6c6f9c6424006a51c3c0519e640700006c7566616a51c300c36a52527ac46a52c36551076c7566616a00.......",
 			"CreateTime":1516946305,
 			"UpdateTime":1516948340,
-			"Description": "30",
 			"ContactInfo":{
 			    "email":"xx@onchain.com",
 			    "twitter":"",
 			    "github":""
 			    ....
 			    },
-			"Logo":""
+			"Logo":"",
+			"Description": "LuckyNumber is a decentralized, tru.....",
+			"Creator": "AFmseVrdL9f9oyCzZefL9tG6UbvhPbdYzM"
 		    }
 		]
 	    }
