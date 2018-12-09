@@ -21,8 +21,8 @@
   - [Smart Contract Template](docs-en/Tutorials/02-smartcontract-template.md)
   - [Learning Collection](docs-en/Tutorials/03-docs-collect.md)
   - [Installation](docs-en/DeveloperGuide/01-installation.md)
-  - [Learning dApp Video](docs-en/Tutorials/04-learning-dapp-video.md)
-  - [Learning SC Video](docs-en/Tutorials/05-learning-sc-video.md)
+  - [DApp Video Tutorail](docs-en/Tutorials/04-learning-dapp-video.md)
+  - [Smart Contract Video Tutorail](docs-en/Tutorials/05-learning-sc-video.md)
 - Punica
   - [Overview](docs-en/Punica/punica.md)
   - [Punica Cli](docs-en/Punica/punica-cli.md)
@@ -86,8 +86,11 @@
   - [Websocket API](docs-en/API/03-websocket_api.md)
   
 - Explorer API
+  - [Overview](docs-en/explorer/overview.md)
   - [Blocks](docs-en/explorer/blocks.md)
   - [Accounts](docs-en/explorer/accounts.md)
+  - [Contracts](docs-en/explorer/contracts.md)
+  - [Tokens](docs-en/explorer/tokens.md)
   - [Transactions](docs-en/explorer/transactions.md)
   - [ONT ID](docs-en/explorer/ontid.md)
   - [Statistics](docs-en/explorer/statistics.md) 
