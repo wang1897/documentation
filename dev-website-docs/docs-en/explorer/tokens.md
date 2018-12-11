@@ -55,6 +55,7 @@
 | ResponseField     |     Type |   Description   | 
 | :--------------: | :--------:| :------: |
 | Total|   int|    |
+
 | ContractHash|   String|    |
 | Name|   String|  |
 | TxCount|   int|    |
@@ -107,11 +108,11 @@
 			   "05": "TNI"
 			},
 			"TokenName": {
-			    "01": "01 TokenNameFirst",
-			    "02": "02 TokenNameSecond",
-			    "03": "03 TokenNameThird",
-			    "04": "04 TokenNameFourth",
-			    "05": "05 TokenNameFifth"
+			    "01": "TokenNameFirst",
+			    "02": "TokenNameSecond",
+			    "03": "TokenNameThird",
+			    "04": "TokenNameFourth",
+			    "05": "TokenNameFifth"
 			},
 			"TokenId": {
 			    "01": "01",
@@ -153,6 +154,7 @@
 | ResponseField     |     Type |   Description   | 
 | :--------------: | :--------:| :------: |
 | Total|   int|    |
+
 | ContractHash|   String|    |
 | Name|   String|  |
 | TxCount|   int|    |
@@ -243,6 +245,7 @@
 | ContactInfo|   String|    |
 | OntCount|   String|    |
 | Addresscount|   int|    |
+
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
@@ -268,8 +271,34 @@
 	       "Creator": "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ",
 	       "Description": "contractsDescription",
 	       "CreateTime": 1544411015,
-	       "TotalSupply": "100002,200000,300000,400000,500000",
-	       "Symbol": "TNF,TNS,TNH,TNO,TNI",
+	       "TotalSupply": {
+	           "01": "100002",
+		   "02": "200000",
+		   "03": "300000",
+		   "04": "400000",
+		   "05": "500000"
+		},
+		"Symbol": {
+		   "01": "TNF",
+		   "02": "TNS",
+		   "03": "TNH",
+		   "04": "TNO",
+		   "05": "TNI"
+		},
+		"TokenName": {
+		   "01": "TokenNameFirst",
+		   "02": "TokenNameSecond",
+		   "03": "TokenNameThird",
+		   "04": "TokenNameFourth",
+		   "05": "TokenNameFifth"
+		},
+		"TokenId": {
+		   "01": "01",
+		   "02": "02",
+		   "03": "03",
+		   "04": "04",
+		   "05": "05"
+		},
 	       "ABI": "",
 	       "TxnList": [
 	           {
@@ -279,7 +308,7 @@
 		       "Fee": "0.010000000",
 		       "TxnHash": "c265aef457cb3b9012f09d5ad5fb834468241744254133e8a95290e9a6df31cd",
 		       "Height": 3130,
-		       "TokenId": "03TokenNameThird"
+		       "TokenName": "TokenNameThird"
 		    }
 		],
 		"Code": "",
@@ -308,29 +337,35 @@
 | Creator|   String|    |
 | CreateTime|   int|    |
 | UpdateTime|   int|    |
-| TotalSupply|   String|    |
 | Description|   String|    |
+| TotalSupply|   String|    |
 | Symbol|   String|    |
+| TokenName|	String|	  |
+| TokenId|	String|	  |
 | ABI|   String|    |
 | Code|   String|    |
 | Name|   String|    |
 | Logo|   String|    |
-| OngCount|   String|    |
 | ContactInfo|   String|    |
-| OntCount|   String|    |
 | Addresscount|   int|    |
+| OngCount|   String|    |
+| OntCount|   String|    |
+
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
 | Height|   int|    |
 | ConfirmFlag	|	int|	  |
 | Fee|	String|	  |
+| TokenName|	String|	  |
 
 
 
-## type: oep8(add tokenid)
 
-	url：/api/v1/explorer/oepcontract/{type}/{contracthash}/{tokenid}{pagesize}/{pagenumber}
+
+## type: oep8(add tokenname)
+
+	url：/api/v1/explorer/oepcontract/{type}/{contracthash}/{tokenname}{pagesize}/{pagenumber}
 	method：GET
 	successResponse：
 	{
@@ -345,6 +380,8 @@
 	       "CreateTime": 1544411015,
 	       "TotalSupply": "100002",
 	       "Symbol": "TNF",
+	       "TokenName": "TokenNameFirst",
+	       "TokenId": "01",
 	       "ABI": "",
 	       "TxnList": [
 	           {
@@ -354,7 +391,7 @@
 		       "Fee": "0.010000000",
 		       "TxnHash": "c265aef457cb3b9012f09d5ad5fb834468241744254133e8a95290e9a6df31cd",
 		       "Height": 3130,
-		       "TokenId": "01 TokenNameFirst"
+		       "TokenName": "TokenNameFirst"
 		    }
 		],
 		"Code": "",
@@ -372,7 +409,7 @@
 | RequestField|     Type |   Description   | 
 | :--------------: | :--------:| :------: |
 | type|   String|  oep8  |
-| tokenid|   String|  01 TokenNameFirst  |
+| tokenname|   String| TokenNameFirst  |
 | contracthash|   String|    |
 | pagesize|   int|    |
 | pagenumber|   int|    |
@@ -384,20 +421,24 @@
 | Creator|   String|    |
 | CreateTime|   int|    |
 | UpdateTime|   int|    |
-| TotalSupply|   String|    |
 | Description|   String|    |
+| TotalSupply|   String|    |
 | Symbol|   String|    |
+| TokenName|   String|    |
+| TokenId|   String|    |
 | ABI|   String|    |
 | Code|   String|    |
 | Name|   String|    |
 | Logo|   String|    |
+| ContactInfo|   String|    |
+| Addresscount|   int|    |
 | OngCount|   String|    |
 | OntCount|   String|    |
-| Addresscount|   int|    |
-| ContactInfo|   String|    |
+
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
 | Height|   int|    |
 | ConfirmFlag	|	int|	  |
 | Fee|	String|	  |
+| TokenName|	String|	  |
