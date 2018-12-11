@@ -211,7 +211,8 @@
 		"UpdateTime": 1544084016,
 		"ContactInfo": "",
 		"OntCount": "20.000000000",
-		"OngCount": "2000.000000000"
+		"OngCount": "2000.000000000",
+		"Addresscount": 11
 	   }
 	}
 
@@ -241,6 +242,7 @@
 | OngCount|   String|    |
 | ContactInfo|   String|    |
 | OntCount|   String|    |
+| Addresscount|   int|    |
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
@@ -286,7 +288,8 @@
 		"UpdateTime": 1544084016,
 		"ContactInfo": "",
 		"OntCount": "20.000000000",
-		"OngCount": "2000.000000000"
+		"OngCount": "2000.000000000",
+		"Addresscount": 11
 	   }
 	}
 
@@ -315,6 +318,7 @@
 | OngCount|   String|    |
 | ContactInfo|   String|    |
 | OntCount|   String|    |
+| Addresscount|   int|    |
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
@@ -359,7 +363,8 @@
 		"UpdateTime": 1544084016,
 		"ContactInfo": "",
 		"OntCount": "20.000000000",
-		"OngCount": "2000.000000000"
+		"OngCount": "2000.000000000",
+		"Addresscount": 11
 	   }
 	}
 
@@ -388,6 +393,7 @@
 | Logo|   String|    |
 | OngCount|   String|    |
 | OntCount|   String|    |
+| Addresscount|   int|    |
 | ContactInfo|   String|    |
 | TxnHash|   String|    |
 | TxnType|   int|  |
