@@ -1,7 +1,7 @@
 
 # Get Token Contract
 
-## type:oep4
+## type: oep4
 
 	url：/api/v1/explorer/oepcontract/{type}/{pagesize}/{pagenumber}
 	method：GET
@@ -74,7 +74,7 @@
 | OngCount|	String|	  |
 
 
-## type:oep8
+## type: oep8
 	
 	url：/api/v1/explorer/oepcontract/{type}/{pagesize}/{pagenumber}
 	method：GET
@@ -324,7 +324,7 @@
 
 
 
-## type: oep8
+## type: oep8(add tokenid)
 
 	url：/api/v1/explorer/oepcontract/{type}/{contracthash}/{tokenid}{pagesize}/{pagenumber}
 	method：GET
