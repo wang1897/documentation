@@ -1,6 +1,6 @@
 # Register Contract Info
 
-## DEFALT OR OEP4
+## type: DEFALT OR OEP4
 
 	url：/api/v1/explorer/contract/registerContractInfo
 
@@ -41,11 +41,10 @@
 
 
 
-## OEP8
+## type: OEP8
 
 	url：/api/v1/explorer/contract/registerContractInfo
 
-	method：POST
 	method：POST
   	input：
       	{
