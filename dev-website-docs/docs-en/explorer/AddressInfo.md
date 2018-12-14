@@ -7,7 +7,7 @@
   
   	successResponse：
 	{
-	    "Action": "RegisterContractInfo",
+	    "Action": "QueryAddressInfoForExcel",
 	    "Error": 0,
 	    "Desc": "SUCCESS",
 	    "Version": "1.0",
