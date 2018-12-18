@@ -55,7 +55,6 @@
 | ResponseField     |     Type |   Description   | 
 | :--------------: | :--------:| :------: |
 | Total|   int|    |
-
 | ContractHash|   String|    |
 | Name|   String|  |
 | TxCount|   int|    |
@@ -154,7 +153,6 @@
 | ResponseField     |     Type |   Description   | 
 | :--------------: | :--------:| :------: |
 | Total|   int|    |
-
 | ContractHash|   String|    |
 | Name|   String|  |
 | TxCount|   int|    |
@@ -245,7 +243,6 @@
 | ContactInfo|   String|    |
 | OntCount|   String|    |
 | Addresscount|   int|    |
-
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
@@ -350,7 +347,6 @@
 | Addresscount|   int|    |
 | OngCount|   String|    |
 | OntCount|   String|    |
-
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
@@ -434,7 +430,6 @@
 | Addresscount|   int|    |
 | OngCount|   String|    |
 | OntCount|   String|    |
-
 | TxnHash|   String|    |
 | TxnType|   int|  |
 | TxnTime|   int|    |
