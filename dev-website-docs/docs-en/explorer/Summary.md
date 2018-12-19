@@ -60,8 +60,8 @@
 | RequestField|     Type |   Description   | 
 | :--------------: | :--------:| :------: |
 | type|   String|     daily or weekly or monthly |
-| starttime|   int|   dayTime(2018-06-30 OO:00:00   : 1530288000)  |
-| endtime|   int|     dayTime(2018-07-01 OO:00:00   : 1530460800)  |
+| starttime|   int|   dayTime(2018-06-30 00:00:00   : 1530288000)  |
+| endtime|   int|     dayTime(2018-07-01 00:00:00   : 1530460800)  |
 
 
 
@@ -117,8 +117,8 @@
 | :--------------: | :--------:| :------: |
 | contracthash|   String|      |
 | type|   String|     daily or weekly or monthly |
-| starttime|   int|   dayTime(2018-06-30 OO:00:00   : 1530288000)  |
-| endtime|   int|     dayTime(2018-07-01 OO:00:00   : 1530460800)  |
+| starttime|   int|   dayTime(2018-06-30 00:00:00   : 1530288000)  |
+| endtime|   int|     dayTime(2018-07-01 00:00:00   : 1530460800)  |
 
 
 
@@ -175,8 +175,8 @@
 | :--------------: | :--------:| :------: |
 | project|   String|   projectName   |
 | type|   String|     daily or weekly or monthly |
-| starttime|   int|   dayTime(2018-06-30 OO:00:00   : 1530288000)  |
-| endtime|   int|     dayTime(2018-07-01 OO:00:00   : 1530460800)  |
+| starttime|   int|   dayTime(2018-06-30 00:00:00   : 1530288000)  |
+| endtime|   int|     dayTime(2018-07-01 00:00:00   : 1530460800)  |
 
 
 
